@@ -8,6 +8,9 @@
 import UIKit
 
 class StudentViewController: UIViewController {
+    
+    @IBOutlet weak var sname: UITextField!
+    @IBOutlet weak var sdpt: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +19,14 @@ class StudentViewController: UIViewController {
     }
     
 
+    @IBAction func addBtn(_ sender: Any) {
+        if let name = sname.text, let dpt = sdpt.text{
+            let newStudent = Students(context: DBManager.share.context)
+            newStudent.sName = name
+            newStudent.sDpt = dpt
+            DBManager.share.saveContext()
+        }
+    }
     /*
     // MARK: - Navigation
 

@@ -17,6 +17,10 @@
 		CEAD70422B1873B5007843B4 /* CoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD70412B1873B5007843B4 /* CoreDataDemoTests.swift */; };
 		CEAD704C2B1873B5007843B4 /* CoreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD704B2B1873B5007843B4 /* CoreDataDemoUITests.swift */; };
 		CEAD704E2B1873B5007843B4 /* CoreDataDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD704D2B1873B5007843B4 /* CoreDataDemoUITestsLaunchTests.swift */; };
+		CEAD705C2B187401007843B4 /* Students+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD705A2B187401007843B4 /* Students+CoreDataClass.swift */; };
+		CEAD705D2B187401007843B4 /* Students+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD705B2B187401007843B4 /* Students+CoreDataProperties.swift */; };
+		CEAD705F2B18741F007843B4 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD705E2B18741F007843B4 /* DBManager.swift */; };
+		CEAD70612B187855007843B4 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD70602B187855007843B4 /* StudentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		CEAD70472B1873B5007843B4 /* CoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAD704B2B1873B5007843B4 /* CoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoUITests.swift; sourceTree = "<group>"; };
 		CEAD704D2B1873B5007843B4 /* CoreDataDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEAD705A2B187401007843B4 /* Students+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Students+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CEAD705B2B187401007843B4 /* Students+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Students+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CEAD705E2B18741F007843B4 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		CEAD70602B187855007843B4 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 		CEAD701B2B1873B1007843B4 = {
 			isa = PBXGroup;
 			children = (
+				CEAD705A2B187401007843B4 /* Students+CoreDataClass.swift */,
+				CEAD705B2B187401007843B4 /* Students+CoreDataProperties.swift */,
 				CEAD70262B1873B1007843B4 /* CoreDataDemo */,
 				CEAD70402B1873B5007843B4 /* CoreDataDemoTests */,
 				CEAD704A2B1873B5007843B4 /* CoreDataDemoUITests */,
@@ -102,9 +112,11 @@
 			isa = PBXGroup;
 			children = (
 				CEAD70272B1873B1007843B4 /* AppDelegate.swift */,
+				CEAD705E2B18741F007843B4 /* DBManager.swift */,
 				CEAD70292B1873B1007843B4 /* SceneDelegate.swift */,
 				CEAD702B2B1873B1007843B4 /* ViewController.swift */,
 				CEAD702D2B1873B1007843B4 /* Main.storyboard */,
+				CEAD70602B187855007843B4 /* StudentViewController.swift */,
 				CEAD70332B1873B4007843B4 /* Assets.xcassets */,
 				CEAD70352B1873B4007843B4 /* LaunchScreen.storyboard */,
 				CEAD70382B1873B4007843B4 /* Info.plist */,
@@ -263,8 +275,12 @@
 			files = (
 				CEAD702C2B1873B1007843B4 /* ViewController.swift in Sources */,
 				CEAD70322B1873B1007843B4 /* CoreDataDemo.xcdatamodeld in Sources */,
+				CEAD705C2B187401007843B4 /* Students+CoreDataClass.swift in Sources */,
+				CEAD705D2B187401007843B4 /* Students+CoreDataProperties.swift in Sources */,
+				CEAD70612B187855007843B4 /* StudentViewController.swift in Sources */,
 				CEAD70282B1873B1007843B4 /* AppDelegate.swift in Sources */,
 				CEAD702A2B1873B1007843B4 /* SceneDelegate.swift in Sources */,
+				CEAD705F2B18741F007843B4 /* DBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
